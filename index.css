@@ -1,0 +1,45 @@
+body  {
+  padding: 0px;
+  margin: 0px;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+.text1 {
+  /*font-size: 64px;
+  padding-left: 0px;
+  margin-left: 202px;
+  padding-top: 0px;
+  margin-top: 182px;*/
+  font-family: "Roboto Slab Bold";
+  font-size: 64px;
+  line-height: 75px;
+  align: left;
+  margin-left: 300px;
+  margin-top: 121px;
+  margin-bottom: 0px;
+  color: #212121;
+}
+
+.text2 {
+  font-size: 36px;
+  font-family: "Roboto Slab Regular";
+  margin-top: 0px;
+  align: left;
+  line-height: 42px;
+  margin-left: 680px;
+  color: #616161;
+}
+
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src: url(./font/Roboto-slab/RobotoSlab-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto Slab Regular";
+  src: url(./font/Roboto-slab/RobotoSlab-Regular.ttf) format("truetype");
+}
